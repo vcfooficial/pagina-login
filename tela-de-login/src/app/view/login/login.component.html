@@ -1,0 +1,25 @@
+<div class="p-grid p-justify-center card">
+    <!--Grip com conteúdo centralizado-->
+    <div class="p-col-10 p-sm-6 p-md-4">
+        <!--10 colunas, telas medias 6 colunas, telas menores 4colunas-->
+        <p-card>
+            <div class="p-grid">
+                <div class="p-col-12 text-center">
+                    <i class="fas fa-laptop-code fa-4x"></i>
+                    <h2>Portal Colaborador</h2>
+                </div>
+                <div class="p-col-12">
+                    <label for="">Usuário:</label>
+                    <input [(ngModel)]="requestLogin.login" class="p-col-12" type="text" pInputText />
+                </div>
+                <div class="p-col-12">
+                    <label for="">Senha:</label>
+                    <input [(ngModel)]="requestLogin.password" class="p-col-12" type="password" pInputText />
+                </div>
+                <div class="p-col-12" >
+                    <button (click)="doLogin()" pButton type="button" label="Entrar" style="border-radius: 10px; " class="p-col-12"></button>
+                </div>
+            </div>
+        </p-card>
+    </div>
+</div>

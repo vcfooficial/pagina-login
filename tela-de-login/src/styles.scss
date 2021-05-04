@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+$background-color: #252525 !important;
+$font-color: #fff !important;
+
+body {
+    background-image: url("./assets/796843.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.p-card {
+    opacity: 0.89;
+    background-color: $background-color;
+    color: $font-color;
+    margin-top: 4em;
+    transition: 0.3s;
+}
+
+.p-card:hover {
+    opacity: 100%;
+    margin-top: 3.7em;
+}
+
+.text-center {
+text-align: center;
+}
